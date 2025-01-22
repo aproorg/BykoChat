@@ -44,7 +44,7 @@ const NewChatButtonIcon = ({ conversation }: { conversation: TConversation | nul
           context="nav"
         />
       ) : (
-        <div className="shadow-stroke relative flex h-full items-center justify-center rounded-full bg-white text-black">
+        <div className="shadow-stroke relative flex h-full items-center justify-center rounded-full bg-transparent text-black">
           {endpoint && Icon != null && (
             <Icon
               size={41}

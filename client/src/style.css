@@ -7,17 +7,17 @@
   --white: #fff;
   --black: #000;
   --gray-20: #ececf1;
-  --gray-50: #f7f7f8;
-  --gray-100: #ececec;
-  --gray-200: #e3e3e3;
-  --gray-300: #cdcdcd;
-  --gray-400: #999696;
-  --gray-500: #595959;
-  --gray-600: #424242;
-  --gray-700: #2f2f2f;
-  --gray-800: #212121;
-  --gray-850: #171717;
-  --gray-900: #0d0d0d;
+  --gray-50: #eef9ff;
+  --gray-100: #ffd330;
+  --gray-200: #ffd330;
+  --gray-300: #ffd330;
+  --gray-400: #20c2ff;
+  --gray-500: #00aaff;
+  --gray-600: #0088df;
+  --gray-700: #006bb4;
+  --gray-800: #005b94;
+  --gray-850: #00416a;
+  --gray-900: #002f51;
   --green-50: #ecfdf5;
   --green-100: #d1fae5;
   --green-200: #a7f3d0;
@@ -124,8 +124,8 @@ html {
   --border-xheavy: var(--gray-400);
   /* These are test styles */
 
-  --background: 0 0% 7%;
-  --foreground: 0 0% 98%;
+  --background:205 100% 16%;
+  --foreground: 205, 100%, 16%;
   --card: 0 0% 3.9%;
   --card-foreground: 0 0% 98%;
   --primary: 0 0% 98%;
@@ -1330,7 +1330,7 @@ html {
 .dark body,
 .dark html {
   --tw-bg-opacity: 1;
-  background-color: rgba(23, 23, 23, var(--tw-bg-opacity));
+  background-color: rgba(0, 47, 81, var(--tw-bg-opacity));
 }
 
 #__next,

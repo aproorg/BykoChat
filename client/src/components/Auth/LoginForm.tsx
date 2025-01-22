@@ -98,7 +98,7 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
               })}
               aria-invalid={!!errors.email}
               className="
-                webkit-dark-styles transition-color peer w-full rounded-2xl border border-border-light
+                transition-color peer w-full rounded-2xl border border-border-light
                 bg-surface-primary px-3.5 pb-2.5 pt-3 text-text-primary duration-200 focus:border-green-500 focus:outline-none
               "
               placeholder=" "
@@ -133,8 +133,9 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
               })}
               aria-invalid={!!errors.password}
               className="
-                webkit-dark-styles transition-color peer w-full rounded-2xl border border-border-light
-                bg-surface-primary px-3.5 pb-2.5 pt-3 text-text-primary duration-200 focus:border-green-500 focus:outline-none
+                transition-color bg-grey-900 peer w-full rounded-2xl border
+                border-border-light bg-surface-primary px-3.5 pb-2.5 pt-3 text-text-primary duration-200 focus:border-green-500
+                focus:outline-none
                 "
               placeholder=" "
             />
@@ -166,10 +167,11 @@ const LoginForm: React.FC<TLoginFormProps> = ({ onSubmit, startupConfig, error, 
             data-testid="login-button"
             type="submit"
             className="
-            w-full rounded-2xl bg-green-600 px-4 py-3 text-sm font-medium text-white
-            transition-colors hover:bg-green-700 focus:outline-none focus:ring-2
-            focus:ring-green-500 focus:ring-offset-2 disabled:opacity-50
-            disabled:hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700
+            text-b dark:bg-grey-600 w-full rounded-2xl bg-green-600 px-4 py-3 text-sm
+            font-medium transition-colors hover:bg-green-700 focus:outline-none
+            focus:ring-2 focus:ring-green-500 focus:ring-offset-2
+            disabled:opacity-50 disabled:hover:bg-green-600 dark:text-white
+            dark:hover:bg-green-700
           "
           >
             {localize('com_auth_continue')}
