@@ -213,7 +213,8 @@ const MessageEndpointIcon: React.FC<IconProps> = (props) => {
     <div
       title={name ?? ''}
       style={{
-        background: bg != null ? bg || 'transparent' : 'transparent',
+        // Disable background color
+        // background: bg != null ? bg || 'transparent' : 'transparent',
         width: size,
         height: size,
       }}

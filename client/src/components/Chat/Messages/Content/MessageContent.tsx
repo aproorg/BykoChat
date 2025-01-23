@@ -100,7 +100,7 @@ const DisplayMessage = ({ text, isCreatedByUser, message, showCursor }: TDisplay
           showCursorState && !!text.length ? 'result-streaming' : '',
           'markdown prose message-content dark:prose-invert light w-full break-words',
           isCreatedByUser && !enableUserMsgMarkdown && 'whitespace-pre-wrap',
-          isCreatedByUser ? 'dark:text-gray-800' : 'dark:text-gray-800',
+          isCreatedByUser ? 'dark:text-gray-800' : 'dark:text-gray-950',
         )}
       >
         {content}
