@@ -74,7 +74,7 @@ export default function Message(props: TMessageProps) {
   return (
     <>
       <div
-        className="text-token-text-primary w-full border-0 bg-transparent dark:border-0 dark:bg-transparent"
+        className="w-full border-0 bg-transparent text-gray-950 dark:border-0 dark:bg-transparent"
         onWheel={handleScroll}
         onTouchMove={handleScroll}
       >

@@ -144,7 +144,7 @@ const ChatForm = ({ index = 0 }) => {
   const isUploadDisabled: boolean = endpointFileConfig?.disabled ?? false;
 
   const baseClasses = cn(
-    'md:py-3.5 m-0 w-full resize-none bg-[#ececec] text-token-primary py-[13px] placeholder-black/50 dark:placeholder-white/50 [&:has(textarea:focus)]:shadow-[0_2px_6px_rgba(0,0,0,.05)]',
+    'md:py-3.5 m-0 w-full resize-none bg-[#ececec] text-token-primary py-[13px] placeholder-black/50 dark:placeholder-gray-950/50 [&:has(textarea:focus)]:shadow-[0_2px_6px_rgba(0,0,0,.05)]',
     isCollapsed ? 'max-h-[52px]' : 'max-h-[65vh] md:max-h-[75vh]',
   );
 
@@ -181,7 +181,7 @@ const ChatForm = ({ index = 0 }) => {
             />
           )}
           <PromptsCommand index={index} textAreaRef={textAreaRef} submitPrompt={submitPrompt} />
-          <div className="transitional-all relative flex w-full flex-grow flex-col overflow-hidden rounded-3xl bg-surface-tertiary text-text-primary duration-200">
+          <div className="transitional-all relative flex w-full flex-grow flex-col overflow-hidden rounded-3xl bg-transparent text-gray-950 duration-200">
             <TextareaHeader addedConvo={addedConvo} setAddedConvo={setAddedConvo} />
             <FileFormWrapper disableInputs={disableInputs}>
               {endpoint && (

@@ -79,13 +79,9 @@ export default function ExportAndShareMenu({
               <Ariakit.MenuButton
                 id="export-menu-button"
                 aria-label="Export options"
-                className="inline-flex size-10 items-center justify-center rounded-lg border border-border-light bg-transparent text-text-primary transition-all ease-in-out hover:bg-surface-tertiary disabled:pointer-events-none disabled:opacity-50 radix-state-open:bg-surface-tertiary"
+                className="inline-flex size-10 items-center justify-center rounded-lg border border-border-light bg-gray-850 text-text-primary transition-all ease-in-out hover:bg-surface-tertiary disabled:pointer-events-none disabled:opacity-50 radix-state-open:bg-surface-tertiary"
               >
-                <Upload
-                  className="icon-md text-text-secondary"
-                  aria-hidden="true"
-                  focusable="false"
-                />
+                <Upload className="icon-md text-[#fff]" aria-hidden="true" focusable="false" />
               </Ariakit.MenuButton>
             }
           />

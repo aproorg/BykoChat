@@ -74,9 +74,9 @@ export default function AudioRecorder({
       return <ListeningIcon className="stroke-red-500" />;
     }
     if (isLoading === true) {
-      return <Spinner className="stroke-gray-700 dark:stroke-gray-300" />;
+      return <Spinner className="stroke-gray-700 dark:stroke-gray-950" />;
     }
-    return <ListeningIcon className="stroke-gray-700 dark:stroke-gray-300" />;
+    return <ListeningIcon className="stroke-gray-700 dark:stroke-gray-950" />;
   };
 
   return (
