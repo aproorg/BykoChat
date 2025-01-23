@@ -59,7 +59,7 @@ export const ErrorMessage = ({
         role="alert"
         aria-live="assertive"
         className={cn(
-          'rounded-xl border border-red-500/20 bg-red-500/5 px-3 py-2 text-sm text-gray-600 dark:text-gray-700',
+          'rounded-xl border border-red-500/20 bg-red-500/5 px-3 py-2 text-sm text-gray-600 dark:text-gray-950',
           className,
         )}
       >
