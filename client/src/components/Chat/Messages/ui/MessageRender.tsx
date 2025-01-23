@@ -96,10 +96,10 @@ const MessageRender = memo(
     const clickHandler =
       showCardRender && !isLatestMessage
         ? () => {
-          logger.log(`Message Card click: Setting ${msg.messageId} as latest message`);
-          logger.dir(msg);
-          setLatestMessage(msg);
-        }
+            logger.log(`Message Card click: Setting ${msg.messageId} as latest message`);
+            logger.dir(msg);
+            setLatestMessage(msg);
+          }
         : undefined;
 
     // Style classes
@@ -144,7 +144,7 @@ const MessageRender = memo(
         <div className="relative flex flex-shrink-0 flex-col items-end">
           <div>
             <div className="pt-0.5">
-              <div className="flex h-6 w-6 items-center justify-center overflow-hidden rounded-full">
+              <div className="flex h-6 w-6 items-center justify-center overflow-hidden rounded-full bg-gray-800">
                 <MessageIcon iconData={iconData} assistant={assistant} />
               </div>
             </div>

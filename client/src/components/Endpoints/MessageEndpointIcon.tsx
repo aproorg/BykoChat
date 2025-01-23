@@ -182,7 +182,7 @@ const MessageEndpointIcon: React.FC<IconProps> = (props) => {
     default: {
       icon: (
         <div className="h-6 w-6">
-          <div className="overflow-hidden rounded-full">
+          <div className="flex h-full items-center overflow-hidden	rounded-full">
             <UnknownIcon
               iconURL={iconURL}
               endpoint={endpoint ?? ''}

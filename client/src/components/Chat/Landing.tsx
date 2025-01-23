@@ -65,7 +65,7 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
   }, [documentsMap, isAgent, entity]);
 
   const containerClassName =
-    'shadow-stroke relative flex h-full items-center justify-center rounded-full bg-transparent text-black';
+    'shadow-stroke relative flex h-full items-center justify-center rounded-full bg-gray-800 text-black';
 
   const { submitMessage } = useSubmitMessage();
   const sendConversationStarter = (text: string) => submitMessage({ text });
