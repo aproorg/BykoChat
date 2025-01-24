@@ -53,7 +53,7 @@ const MinimalIcon: React.FC<IconProps> = (props) => {
       name: props.modelLabel ?? alternateName[EModelEndpoint.agents],
     },
     [EModelEndpoint.bedrock]: {
-      icon: <BedrockIcon className="icon-xl text-text-primary" />,
+      icon: <BedrockIcon className="icon-xl text-text-primary" color="#00416a" />,
       name: props.modelLabel ?? alternateName[EModelEndpoint.bedrock],
     },
     default: {
@@ -76,7 +76,7 @@ const MinimalIcon: React.FC<IconProps> = (props) => {
         height: size,
       }}
       className={cn(
-        'relative flex items-center justify-center rounded-sm bg-gray-800 text-text-secondary',
+        'relative flex items-center justify-center rounded-sm bg-white text-text-secondary',
         props.className ?? '',
       )}
     >
