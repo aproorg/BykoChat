@@ -4,7 +4,7 @@
 
 /* Custom Variables */
 :root {
-  --white: #fff;
+  --white: #FAF9F8;
   --black: #000;
   --gray-20: #ececf1;
   --gray-50: #eef9ff;
@@ -109,11 +109,11 @@ html {
   --surface-hover: var(--gray-600);
   --surface-hover-alt: var(--gray-600);
   --surface-primary: var(--gray-900);
-  --surface-primary-alt: var(--gray-850);
+  --surface-primary-alt: var(--gray-950);
   --surface-primary-contrast: var(--gray-850);
   --surface-secondary: var(--gray-800);
   --surface-secondary-alt: var(--gray-800);
-  --surface-tertiary: var(--gray-700);
+  --surface-tertiary: var(--gray-950);
   --surface-tertiary-alt: var(--gray-700);
   --surface-dialog: var(--gray-850);
   --surface-submit: var(--green-700);
