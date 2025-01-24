@@ -125,7 +125,7 @@ module.exports = {
       },
       textColor: {
         primary: '#ffd330',
-        white: '#ffd330',
+        white: '#fff',
       },
       borderRadius: {
         lg: 'var(--radius)',

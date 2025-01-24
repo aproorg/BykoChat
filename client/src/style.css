@@ -97,8 +97,8 @@ html {
 }
 .dark {
   --presentation: var(--white);
-  --text-primary: var(--gray-100);
-  --text-secondary: var(--gray-300);
+  --text-primary: var(--white);
+  --text-secondary: var(--white);
   --text-secondary-alt: var(--gray-400);
   --text-tertiary: var(--gray-500);
   --header-primary: var(--gray-700);
